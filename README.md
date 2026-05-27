@@ -63,4 +63,22 @@ Este projeto foi desenvolvido em **Java** utilizando o **Maven** para gerenciame
 - **Legibilidade**: Código comentado e estruturado para fácil entendimento.
 
 ---
+
+## 👨‍💻 Autor
+
+<div align="center">
+  <img src="https://github.com/kauavictorss.png" width="150px" style="border-radius: 50%;" alt="Kauã Victor"/>
+  <br>
+  <h1>Kauã Victor Silva dos Santos</h1>
+  
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauavictorss)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kaua-victor-santos/)
+</div>
+
+---
+
+## 🎓 Certificação DIO
+
 Desenvolvido com ☕ e foco em lógica!
+
+[![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-ef4444?style=for-the-badge&logo=douban)](https://www.dio.me/certificate/GKJTUNP4/share)
