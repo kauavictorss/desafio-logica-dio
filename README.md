@@ -1,31 +1,66 @@
-# Instruções para entrega
-## 1️⃣ Desafio Classificador de nível de Herói
+# Classificador de Nível de Herói
 
-**O Que deve ser utilizado**
+Este projeto foi desenvolvido como parte do desafio prático do módulo **"Dominando Estruturas de Controle"** da **Formação Lógica de Programação** da [Digital Innovation One (DIO)](https://www.dio.me/).
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+## 📌 Sobre o Desafio
 
-### Objetivo
+O objetivo deste desafio é aplicar conceitos fundamentais de lógica de programação para classificar o nível de um herói com base em sua quantidade de experiência (XP).
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+### Requisitos Técnicos
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 5.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+Para a implementação, foram utilizados os seguintes conceitos:
+- **Variáveis**: Para armazenar dados como nome e XP.
+- **Operadores**: Para comparações lógicas de valores.
+- **Laços de Repetição**: Para permitir múltiplas consultas sem reiniciar o programa.
+- **Estruturas de Decisão**: `if-else` para categorizar o herói nas faixas de nível.
 
-### Saída
+### Regras de Classificação
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+O nível é determinado seguindo a tabela abaixo:
+
+| XP | Nível |
+| :--- | :--- |
+| Menor que 1.000 | Ferro |
+| Entre 1.001 e 2.000 | Bronze |
+| Entre 2.001 e 5.000 | Prata |
+| Entre 5.001 e 7.000 | Ouro |
+| Entre 7.001 e 8.000 | Platina |
+| Entre 8.001 e 9.000 | Ascendente |
+| Entre 9.001 e 10.000 | Imortal |
+| Maior ou igual a 10.001 | Radiante |
+
+### Saída Esperada
+
+Ao final da execução, o programa deve exibir a mensagem:
+`"O Herói de nome {nome} está no nível de {nivel}"`
 
 ---
 
-Bons estudos 😉
+## 🚀 Como Executar
+
+Este projeto foi desenvolvido em **Java** utilizando o **Maven** para gerenciamento de dependências e execução.
+
+1.  **Pré-requisitos**:
+    - Java JDK 17 ou superior.
+    - Maven instalado.
+
+2.  **Compilar e Rodar**:
+    Abra o terminal na pasta raiz do projeto e execute:
+    ```bash
+    mvn compile exec:java -Dexec.mainClass="Main"
+    ```
+
+3.  **Interação**:
+    - Siga as instruções no console para digitar o nome e o XP do herói.
+    - Ao final de cada classificação, você poderá escolher se deseja realizar uma nova consulta.
+
+---
+
+## 🛠️ Boas Práticas Aplicadas
+
+- **Separação de Responsabilidades**: A lógica de classificação foi isolada em um método específico (`classificarNivel`), facilitando a manutenção.
+- **Validação de Entrada**: O programa verifica se o XP inserido é um número válido, evitando erros de execução (Exceptions).
+- **Legibilidade**: Código comentado e estruturado para fácil entendimento.
+
+---
+Desenvolvido com ☕ e foco em lógica!
